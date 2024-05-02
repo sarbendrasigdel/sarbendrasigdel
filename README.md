@@ -6,6 +6,6 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on open source projects
 - 🤔 I’m looking for help with Laravel
 - 💬 Ask me about php and frameworks
-- 📫 How to reach me: sarmendrasigdel5019@gmail.com
+- 📫 How to reach me: sarmendrasigdel5019@gmail.com | +977 9860672399
 
 
