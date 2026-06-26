@@ -1,31 +1,34 @@
 # 👨‍💻 STACK_TRACE: SANITY_CHECK
 
-```typescript
-import { SoftwareEngineer } from 'developer';
+```python
+from developer import SoftwareEngineer
+from typing import List, Dict, Any
 
-/**
- * @file Sarbendra Sigdel - Portfolio Core v2.0.26
- * @status STABLE | Compiling human.sys... SUCCESS.
- */
+"""
+@file: Sarbendra Sigdel - Portfolio Core v2.0.26
+@status: STABLE | Execution of human.py... SUCCESS.
+"""
 
-const DeveloperProfile = {
-  identity: {
-    name: "Sarbendra Sigdel",
-    loc:  "Chandragiri-02, Kathmandu, Nepal",
-  },
-  
-  sysConfig: {
-    core:       ["Python", "FastAPI", "Celery", "LLMs"],
-    secondary:  ["C#", "ASP.NET Core"],
-    focus:      ["Core Backend Architecture", "Distributed Task Processing", "GenAI Augmentation"]
-  },
+class DeveloperProfile:
+    def __init__(self):
+        self.identity: Dict[str, str] = {
+            "name": "Sarbendra Sigdel",
+            "loc":  "Chandragiri-02, Kathmandu, Nepal"
+        }
+        
+        self.sys_config: Dict[str, List[str]] = {
+            "core":      ["Python", "FastAPI", "Celery", "LLMs"],
+            "secondary": ["C#", "ASP.NET Core"],
+            "focus":     ["Core Backend Architecture", "Distributed Task Processing", "GenAI Augmentation"]
+        }
+        
+        self.runtime: Dict[str, str] = {
+            "status":       "Building Intelligent & Scalable Systems...",
+            "mode":         "Deep Focus / Continuous Compilation",
+            "availability": "Open to opportunities"
+        }
 
-  runtime: {
-    status: "Building Intelligent & Scalable Systems...",
-    mode:   "Deep Focus / Continuous Compilation",
-    availability: "Open to opportunities"
-  }
-};
+profile = DeveloperProfile()
 
 ================================== SYSTEM DIAGNOSTICS ==================================
 [██████████████████████████░░░░░]  80% | Core Backend Architecture & Scalable APIs
@@ -34,6 +37,8 @@ const DeveloperProfile = {
 ========================================================================================
 
 $ curl -s [https://sarbendrasigdel.com.np](https://sarbendrasigdel.com.np) | grep -E "(connect|explore)"
+
+📧 Transport Layer: sarbendrasigdel@gmail.com
 
 [Process completed. Ready for input...]
 _
