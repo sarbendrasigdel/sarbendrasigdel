@@ -13,7 +13,7 @@ class DeveloperProfile:
     def __init__(self):
         self.identity: Dict[str, str] = {
             "name": "Sarbendra Sigdel",
-            "loc":  "Chandragiri-02, Kathmandu, Nepal"
+            "loc":  "Kathmandu, Nepal"
         }
         
         self.sys_config: Dict[str, List[str]] = {
